@@ -27,7 +27,7 @@ Ensure you have [Node.js](https://nodejs.org/) (v18 or higher) and `npm` install
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/repodecode.git
+git clone https://github.com/Jahin-Tazwra/repodecode.git
 cd repodecode
 ```
 
