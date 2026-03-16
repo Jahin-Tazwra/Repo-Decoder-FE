@@ -42,7 +42,7 @@ export default function App() {
 
     try {
       // Send the URL to your custom backend
-      const response = await axios.post('http://localhost:3000/api/v1/analyze', { githubUrl: url });
+      const response = await axios.post(process.env.ANALYSIS_API, { githubUrl: url });
       
       // Handle the markdown data returned from your backend
       // Adjust 'response.data.markdown' if your backend sends the markdown in a different field
